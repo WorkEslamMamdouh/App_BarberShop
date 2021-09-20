@@ -1,0 +1,778 @@
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\ApplicationInsights.config
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\csc.exe
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\csc.exe.config
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\csc.rsp
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\csi.exe
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\csi.rsp
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\vbc.exe
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\vbc.exe.config
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\vbc.rsp
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\WebUI.dll.config
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\WebUI.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\WebUI.pdb
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Antlr3.Runtime.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Newtonsoft.Json.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Helpers.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Mvc.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Optimization.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Razor.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\WebGrease.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Helpers.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Mvc.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Optimization.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.Razor.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Newtonsoft.Json.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.dll
+c:\users\eslam\documents\visual studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.pdb
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\ApplicationInsights.config
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\csc.exe
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\csc.exe.config
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\csc.rsp
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\csi.exe
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\csi.rsp
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\vbc.exe
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\vbc.exe.config
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\vbc.rsp
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\WebUI.dll.config
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\WebUI.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\WebUI.pdb
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Helpers.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Mvc.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Optimization.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Razor.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.WebPages.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\WebGrease.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Helpers.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Mvc.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Optimization.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.Razor.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.WebPages.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\Eslam\Desktop\WebUI\WebUI\obj\Debug\WebUI.dll
+C:\Users\Eslam\Desktop\WebUI\WebUI\obj\Debug\WebUI.pdb
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\csc.exe
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\csc.exe.config
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\csc.rsp
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\csi.exe
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\csi.rsp
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\vbc.exe
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\vbc.exe.config
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\vbc.rsp
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\ApplicationInsights.config
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\WebUI.dll.config
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\WebUI.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\WebUI.pdb
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\DAL.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Helpers.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Mvc.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Optimization.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Razor.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.WebPages.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\WebGrease.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\EntityFramework.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\DAL.pdb
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\DAL.dll.config
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Helpers.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Mvc.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Optimization.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.Razor.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.WebPages.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\obj\Debug\WebUI.dll
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\obj\Debug\WebUI.pdb
+C:\Users\Eslam\Desktop\FramWorck\WebUI\WebUI\bin\EntityFramework.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\ApplicationInsights.config
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\csc.exe
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\csc.exe.config
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\csc.rsp
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\csi.exe
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\csi.rsp
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\vbc.exe
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\vbc.exe.config
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\vbc.rsp
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\WebUI.dll.config
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\WebUI.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\WebUI.pdb
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Antlr3.Runtime.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\DAL.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Newtonsoft.Json.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Helpers.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Mvc.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Optimization.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Razor.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.WebPages.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\WebGrease.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\EntityFramework.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\DAL.pdb
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\DAL.dll.config
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Helpers.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Mvc.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Optimization.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.Razor.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.WebPages.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Newtonsoft.Json.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\bin\EntityFramework.xml
+D:\NewFramWork\New folder (2)\WebUI\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+D:\NewFramWork\New folder (2)\WebUI\WebUI\obj\Debug\WebUI.dll
+D:\NewFramWork\New folder (2)\WebUI\WebUI\obj\Debug\WebUI.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\ApplicationInsights.config
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\csc.exe
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\csc.exe.config
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\csc.rsp
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\csi.exe
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\csi.rsp
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\vbc.exe
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\vbc.exe.config
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\vbc.rsp
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\WebUI.dll.config
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\WebUI.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\WebUI.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Antlr3.Runtime.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\DAL.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Newtonsoft.Json.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Helpers.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Mvc.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Optimization.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Razor.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.WebPages.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\WebGrease.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\EntityFramework.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\DAL.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\DAL.dll.config
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Helpers.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Mvc.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Optimization.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.Razor.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.WebPages.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Newtonsoft.Json.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\bin\EntityFramework.xml
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\obj\Debug\WebUI.csprojAssemblyReference.cache
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\obj\Debug\WebUI.csproj.CoreCompileInputs.cache
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\obj\Debug\WebUI.csproj.CopyComplete
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\obj\Debug\WebUI.dll
+D:\NewFramWork\WebUI 7-2-2021 - Copy\WebUI\WebUI\obj\Debug\WebUI.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\ApplicationInsights.config
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.exe
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.exe.config
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.rsp
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csi.exe
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csi.rsp
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.exe
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.exe.config
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.rsp
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.dll.config
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Antlr3.Runtime.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Newtonsoft.Json.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Helpers.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Mvc.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Optimization.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Razor.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebGrease.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\EntityFramework.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.dll.config
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Helpers.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Mvc.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Optimization.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Razor.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Newtonsoft.Json.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\EntityFramework.xml
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csprojAssemblyReference.cache
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.CoreCompileInputs.cache
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.CopyComplete
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.dll
+D:\NewFramWork\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.pdb
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\ApplicationInsights.config
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.exe
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.exe.config
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.rsp
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csi.exe
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csi.rsp
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.exe
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.exe.config
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.rsp
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.dll.config
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.pdb
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Antlr3.Runtime.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Newtonsoft.Json.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Helpers.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Mvc.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Optimization.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Razor.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebGrease.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\EntityFramework.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.pdb
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.dll.config
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Helpers.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Mvc.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Optimization.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Razor.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Newtonsoft.Json.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\EntityFramework.xml
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csprojAssemblyReference.cache
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.CoreCompileInputs.cache
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.CopyComplete
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.dll
+D:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.pdb
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\ApplicationInsights.config
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.exe
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.exe.config
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csc.rsp
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csi.exe
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\csi.rsp
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.exe
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.exe.config
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\vbc.rsp
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.dll.config
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebUI.pdb
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Antlr3.Runtime.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Newtonsoft.Json.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Helpers.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Mvc.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Optimization.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Razor.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\WebGrease.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\EntityFramework.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.pdb
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\DAL.dll.config
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Helpers.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Mvc.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Optimization.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.Razor.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Newtonsoft.Json.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\bin\EntityFramework.xml
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.AssemblyReference.cache
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.CoreCompileInputs.cache
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.csproj.CopyComplete
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.dll
+G:\GitHub\Samah\WebUI 7-2-2021 - Temp\WebUI\WebUI\obj\Debug\WebUI.pdb
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\ApplicationInsights.config
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\csc.exe
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\csc.exe.config
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\csc.rsp
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\csi.exe
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\csi.rsp
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\vbc.exe
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\vbc.exe.config
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\vbc.rsp
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\WebUI.dll.config
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\WebUI.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\WebUI.pdb
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Helpers.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Mvc.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Optimization.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Razor.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\WebGrease.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Helpers.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Mvc.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Optimization.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.Razor.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.csprojAssemblyReference.cache
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.csproj.CoreCompileInputs.cache
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.csproj.CopyComplete
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.dll
+C:\Users\prog08\Documents\Visual Studio 2017\Projects\WebUI\WebUI\obj\Debug\WebUI.pdb
+F:\Sameh\Ui\WebUI\WebUI\bin\ApplicationInsights.config
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\csc.exe
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\csc.exe.config
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\csc.rsp
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\csi.exe
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\csi.rsp
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\vbc.exe
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\vbc.exe.config
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\vbc.rsp
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+F:\Sameh\Ui\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+F:\Sameh\Ui\WebUI\WebUI\bin\WebUI.dll.config
+F:\Sameh\Ui\WebUI\WebUI\bin\WebUI.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\WebUI.pdb
+F:\Sameh\Ui\WebUI\WebUI\bin\Antlr3.Runtime.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Newtonsoft.Json.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Helpers.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Mvc.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Optimization.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Razor.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.WebPages.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\WebGrease.dll
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Helpers.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Mvc.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Optimization.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.Razor.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.WebPages.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+F:\Sameh\Ui\WebUI\WebUI\bin\Newtonsoft.Json.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+F:\Sameh\Ui\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+F:\Sameh\Ui\WebUI\WebUI\obj\Debug\WebUI.csproj.AssemblyReference.cache
+F:\Sameh\Ui\WebUI\WebUI\obj\Debug\WebUI.csproj.CoreCompileInputs.cache
+F:\Sameh\Ui\WebUI\WebUI\obj\Debug\WebUI.csproj.CopyComplete
+F:\Sameh\Ui\WebUI\WebUI\obj\Debug\WebUI.dll
+F:\Sameh\Ui\WebUI\WebUI\obj\Debug\WebUI.pdb
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\ApplicationInsights.config
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\csc.exe
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\csc.exe.config
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\csc.rsp
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\csi.exe
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\csi.rsp
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\System.AppContext.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\System.Collections.Immutable.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\vbc.exe
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\vbc.exe.config
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\vbc.rsp
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\roslyn\VBCSCompiler.exe.config
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\WebUI.dll.config
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\WebUI.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\WebUI.pdb
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Antlr3.Runtime.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.Web.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.ApplicationInsights.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Newtonsoft.Json.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Helpers.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Mvc.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Optimization.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Razor.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.WebPages.Deployment.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.WebPages.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.WebPages.Razor.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\WebGrease.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Helpers.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Mvc.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Optimization.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.Razor.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.WebPages.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.WebPages.Deployment.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\System.Web.WebPages.Razor.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Antlr3.Runtime.pdb
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Newtonsoft.Json.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.ApplicationInsights.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.WindowsServer.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\bin\Microsoft.AI.Web.xml
+F:\Sameh\AppNewSameh\WebUI\WebUI\obj\Debug\WebUI.dll
+F:\Sameh\AppNewSameh\WebUI\WebUI\obj\Debug\WebUI.pdb
+F:\Sameh\AppNewSameh\WebUI\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache

@@ -1,0 +1,471 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+
+<style>
+
+    .display_none {
+        display: none !important;
+    }
+
+
+    .Corse_Is_Active {
+        box-shadow: 0 5px 15px rgb(255 0 0 / 75%);
+        background: #ff7a7a !important;
+        border-radius: 2.25rem;
+        width: 67px;
+        height: 88px;
+        text-align: -webkit-center;
+    }
+
+        .Corse_Is_Active:hover {
+            box-shadow: 0 5px 15px rgb(255 0 0);
+        }
+
+
+    .Corse_ON_Active {
+        box-shadow: 0 5px 15px rgb(255 255 255 / 75%);
+        background: #ffffff !important;
+        border-radius: 2.25rem;
+        width: 67px;
+        height: 88px;
+        text-align: -webkit-center;
+    }
+
+    .Corse_text_Num {
+        margin-top: -17px;
+        margin-bottom: 9px;
+        color: black;
+        font-size: 21px;
+    }
+
+     
+    .checkbox_label {
+        color: blanchedalmond;
+        font-size: 21px;
+    }
+
+    .Num {
+        width: 31%;
+        height: 83px;
+        font-size: 44px;
+        border-radius: 45%;
+        border-color: #ffffff;
+        background-color: #ffffff00;
+        color: aliceblue;
+        font-weight: bold;
+        border: none;
+    }
+     
+    .Num1 {
+        width: 31%;
+        height: 83px;
+        font-size: 44px;
+        border-radius: 45%;
+        border-color: #ffffff;
+        background-color: #ffffff00;
+        color: aliceblue;
+        font-weight: bold; 
+    }
+
+    .check {
+        top: 25px !important;
+    }
+
+    .Remove {
+        font-size: 20px !important;
+        width: 50px !important;
+        background-color: #ee0000cf !important;
+        border-color: #ffffff !important;
+        margin-left: 240% !important;
+        border-radius: 89% !important;
+        text-align: center !important;
+    }
+
+
+    input[type='checkbox'] {
+        width: 25px !important;
+        height: 22px !important;
+        margin: 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        outline: 1px solid black;
+        box-shadow: none;
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1em;
+        background: #ff0000;
+        border-radius: 69%;
+    }
+
+        input[type='checkbox']:checked:after {
+            content: '✔';
+            color: white;
+        }
+</style>
+
+<script src="~/Scripts/jquery-3.5.1.js"></script>
+@*<script src="~/Scripts/jquery-3.1.1.min.js"></script>*@
+<script src="~/ClientApp/Entities.js"></script>
+<script src="~/ClientApp/Shared.js"></script>
+<script src="~/ClientApp/App.js"></script>
+<script src="~/ClientApp/SystemTools.js"></script>
+<script src="~/ClientApp/MessageBox.js"></script>
+<script src="~/ClientApp/JsGrid.js"></script>
+<script src="~/Scripts/jsgrid/jsgrid.js"></script>
+<script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="~/ClientApp/DataTable.js"></script>
+<script src="~/Scripts/DataTables/dataTables.bootstrap.js"></script>
+<link href="~/ClientApp/Open_more_Style.css" rel="stylesheet" />
+
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600,300,700' rel='stylesheet' type='text/css'>
+<!-- ionicons Fonts for icons -->
+<link href="~/css/ionicons.min.css" rel="stylesheet">
+<!-- bootstrap -->
+<link href="~/css/bootstrap.css" rel="stylesheet">
+<!-- Styles CSS-->
+<link href="~/css/style.css" rel="stylesheet">
+<!-- Animate CSS-->
+<link href="~/css/animate.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+
+
+<body class="box-layout">
+
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader">
+            <span class="cssload-loading"></span>
+        </div>
+    </div>
+    <!-- End Page Loader -->
+    <div class="inner-conterner">
+        <!-- inner-conterner -->
+        <header class="site-header">
+            <div class="header-inner">
+                <!-- navigation panel -->
+                <div class="container">
+                    <div class="row">
+                        <div class="header-table col-md-12">
+                            <div class="brand col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <a style="color: white; font-weight: bold; font-size: 47px;">
+                                    <i id="butBack" class="fa ion-ios-arrow-thin-left  display_none"></i>
+                                </a>
+                                <a id="txt_titel" style="color: white; font-weight: bold; font-size: 21px;">
+                                    قائمة التسجيل
+                                </a>
+                            </div>
+                            <div id=" " class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <button id="butRemove" type="button" class="btn btn-success Remove display_none">
+                                    x
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End navigation panel -->
+                </div>
+                <!-- End navigation panel -->
+            </div>
+        </header>
+
+
+
+        <!-- Story Section -->
+        <div class="story-container">
+            <div class="story-wrapper wow fadeInUp">
+
+                <!------------------------------------------------------------------Page ----Login --------------------------------->
+                <div class="row " id="Div_Login">
+                    <div class="col-md-12">
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <img class="col-lg-1 col-md-3 col-sm-3 col-xs-8" src="../images/logo_samah_New.png" style="margin-left: 17%;" />
+
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                    <div class="col-md-12">
+
+                        @*<h3 class="title-un" style="color: whitesmoke;">BarberShop</h3>*@
+                        <div class="title-un-icon" style="color: white;"><i class="fa ion-ios-book-outline"></i></div>
+                        <!-- <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p> -->
+                        <div class="newsletter-container wow fadeInUp">
+                            <input id="txtName" placeholder="Name" class="newsletter-field" type="text" required="" name="Name">
+                            <input id="txtPhone" placeholder="Phone" class="newsletter-field" type="number" required="" name="Phone">
+                            <button id="submit" type="submit" class="button green-button">تسجيل </button>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------Page ----Type --------------------------------->
+                <div class="row display_none" id="Div_Type">
+                    <div class="col-md-12">
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                    <div class="col-md-12"> 
+                        <div class="newsletter-container wow fadeInUp">
+                            <button id="btnMan" type="button" class="Num" style="font-size: 40px;">  
+                                <img src="../images/Man.png" />
+                            </button>
+
+                            <button  type="button" class="Num" style="width: 43px;"> 
+
+                            </button>
+
+                            <button id="btnChild" type="button" class="Num" style="font-size: 40px;">
+                               
+                                <img src="../images/child.png" />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top: -42px;">
+                        <div class="newsletter-container wow fadeInUp">
+                            <button id="btnMan" type="button" class="Num" style="font-size: 40px;">
+                               رجل
+                            </button> 
+                            <button type="button" class="Num" style="width: 43px;"></button> 
+                            <button id="btnChild" type="button" class="Num" style="font-size: 40px;"> 
+                               طفل
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!------------------------------------------------------------------Page ----Employess --------------------------------->
+                <div class="row display_none" id="Div_Employess">
+                    <div class="col-md-12">
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                    <div class="col-md-12">
+
+                        <div id="div_Emb" class="newsletter-container wow fadeInUp">
+
+
+                            <br />
+
+                        </div>
+                        <br />
+
+                    </div>
+                    <div class="col-md-12">
+                        <button id="btnContinue" type="button" class="btn btn-success" style="font-size: 21px; width: 137px; background-color: #6e0000cf; border-color: #ffffff; margin-left: 32%;">
+                            متابعة
+                        </button>
+                    </div>
+                </div>
+
+
+                <!------------------------------------------------------------------Page ----Confirm --------------------------------->
+                <div class="row display_none" id="Div_Confirm">
+                    <div class="col-md-12">
+
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <img class="col-lg-1 col-md-3 col-sm-3 col-xs-8" src="../images/logo_samah_New.png" style="margin-left: 17%;" />
+
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                    <div class="col-md-12">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                        <div class="" style="text-align: center; color: white;">
+                            <a id="Confirm_Num_Dor" style="color: white;font-weight: bold;font-size: 19px;">
+                             
+                            </a>
+                            <br />
+
+                        </div>
+
+                        <div class="newsletter-container wow fadeInUp">
+                            <button id="butConfirm" type="submit" class="button green-button">تاكيد </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------------------------------------------------------Page ----Confirm --------------------------------->
+                <div class="row display_none" id="Div_Home">
+                    <div class="col-md-12">
+
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <img class="col-lg-1 col-md-3 col-sm-3 col-xs-6" src="../images/logo_samah_New.png" style="margin-left: 26%;" />
+
+
+                        <br />
+                        <br />
+                        <br />
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div class="col-md-12">
+                            <a id="" style="color: white; font-weight: bold; font-size: 33px; text-align: center; margin-left: 41%;">
+                                رقمك
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <br />
+                        <br />
+                        <div class="newsletter-container wow fadeInUp">
+                            <button id="label_Num" class="Num1">66 </button>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                        <div class="" style="text-align: center; color: white;">
+                            <a id="Home_Num_Dor" style="color: white;font-weight: bold;font-size: 19px;">
+                                باقي علي دورك : يمكنك الدخول
+                            </a>
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12  tab-area tab-contact-wraper " style="text-align: center;"> 
+                            <div class=" col-sm-12 col-md-12 col-lg-12 col-xl-12 jq-tab-menu justify-content-center">
+                                <button id="Corse_1" class=" col-sm-3 col-md-3 col-lg-3 col-xl-3 jq-tab-title Corse_ON_Active" data-tab="1">
+                                    <h6 col-sm-12 col-md-12 col-lg-12 col-xl-12 id="text_Num_1" class="Corse_text_Num"></h6>
+                                    <img col-sm-12 col-md-12 col-lg-12 col-xl-12 src="../images/tab/icon4.png" alt="">
+                                </button>
+                                <button id="Corse_2" class="col-sm-3 col-md-3 col-lg-3 col-xl-3 jq-tab-title Corse_ON_Active" data-tab="2">
+                                    <h6 col-sm-12 col-md-12 col-lg-12 col-xl-12 id="text_Num_2" class="Corse_text_Num"></h6>
+                                    <img col-sm-12 col-md-12 col-lg-12 col-xl-12 src="../images/tab/icon4.png" alt="">
+                                </button>
+                                <button id="Corse_3" class="col-sm-3 col-md-3 col-lg-3 col-xl-3 jq-tab-title Corse_ON_Active" data-tab="3">
+                                    <h6 col-sm-12 col-md-12 col-lg-12 col-xl-12 id="text_Num_3" class="Corse_text_Num"></h6>
+                                    <img col-sm-12 col-md-12 col-lg-12 col-xl-12 src="../images/tab/icon4.png" alt="">
+                                </button>
+                                <button id="Corse_4" class="col-sm-3 col-md-3 col-lg-3 col-xl-3 jq-tab-title Corse_ON_Active" data-tab="4">
+                                    <h6 col-sm-12 col-md-12 col-lg-12 col-xl-12 id="text_Num_4" class="Corse_text_Num"></h6>
+                                    <img col-sm-12 col-md-12 col-lg-12 col-xl-12 src="../images/tab/icon4.png" alt="">
+                                </button> 
+
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <br />
+                                <br />
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <!-- End Story Section -->
+        <!-- Service Section -->
+
+
+
+
+    </div>
+    <!-- End inner-conterner -->
+    <!-- ================================================== -->
+    <!-- Placed js files at the end of the document so the pages load faster -->
+
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/superfish.js"></script>
+    <script src="~/js/wow.js"></script>
+    <script src="~/js/jquery.isotope.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.js"></script>
+    <script src="~/js/jflickrfeed.min.js"></script>
+    <script src="~/js/jquery.fitvids.js"></script>
+    <script src="~/js/jquery.fractionslider.min.js"></script>
+    <script src="~/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="~/text/javascript" src="js/SmoothScroll.js"></script>
+
+    <script src="~/js/main.js"></script>
+
+</body>
+
+
+<script src="~/ClientApp/Login/Login.js"></script>

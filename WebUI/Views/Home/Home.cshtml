@@ -1,0 +1,165 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+
+<style>
+
+    .display_none {
+        display: none !important;
+    }
+     
+</style>
+
+<script src="~/Scripts/jquery-3.5.1.js"></script>
+@*<script src="~/Scripts/jquery-3.1.1.min.js"></script>*@
+<script src="~/ClientApp/Entities.js"></script>
+<script src="~/ClientApp/Shared.js"></script>
+<script src="~/ClientApp/App.js"></script>
+<script src="~/ClientApp/SystemTools.js"></script>
+<script src="~/ClientApp/MessageBox.js"></script>
+<script src="~/ClientApp/JsGrid.js"></script>
+<script src="~/Scripts/jsgrid/jsgrid.js"></script>
+<script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="~/ClientApp/DataTable.js"></script>
+<script src="~/Scripts/DataTables/dataTables.bootstrap.js"></script>
+<link href="~/ClientApp/Open_more_Style.css" rel="stylesheet" />
+ 
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600,300,700' rel='stylesheet' type='text/css'>
+    <!-- ionicons Fonts for icons -->
+    <link href="~/css/ionicons.min.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="~/css/bootstrap.css" rel="stylesheet">
+    <!-- Styles CSS-->
+    <link href="~/css/style.css" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link href="~/css/animate.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+       <![endif]-->
+ 
+
+    <body class="box-layout">
+        <!-- Page Loader -->
+        <div class="page-loader">
+            <div class="loader">
+                <span class="cssload-loading"></span>
+            </div>
+        </div>
+        <!-- End Page Loader -->
+        <div class="inner-conterner">
+            <!-- inner-conterner -->
+            <header class="site-header">
+                <div class="header-inner">
+                    <!-- navigation panel -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="header-table col-md-12">
+                                <div class="brand">
+                                    <a href="index.html" style="color: white;font-weight: bold;font-size: 24px;">
+                                        قائمة الرئيسيه
+                                    </a>
+                                </div>
+                                <nav id="nav-wrap" class="main-nav">
+                                    <div id="mobnav-btn"> </div>
+                                    <ul class="sf-menu">
+                                        <li class="current">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        
+                                        <li class="menu-search-bar">
+                                            @*<a id="search-label"><i class="ion-search"></i></a>*@
+                                            <form class="search-bar" id="searchform">
+                                                <input type="text" placeholder="Search..." name="s">
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- End navigation panel -->
+                    </div>
+                    <!-- End navigation panel -->
+                </div>
+            </header>
+
+
+
+            <!-- Story Section -->
+            <div class="story-container">
+                <div class="story-wrapper wow fadeInUp">
+
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <img class="col-lg-1 col-md-3 col-sm-3 col-xs-8" src="~/images/logosameh.png" style="margin-left: 17%;" />
+
+
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+                        </div>
+                        <div class="col-md-12">
+                        
+                            @*<h3 class="title-un" style="color: whitesmoke;">BarberShop</h3>*@
+                            <div class="title-un-icon" style="color: white;"><i class="fa ion-ios-book-outline"></i></div>
+                            <!-- <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p> -->
+                            <div class="newsletter-container wow fadeInUp">
+                                <input placeholder="Name" class="newsletter-field" type="text" required="" name="Name">
+                                <input placeholder="Phone" class="newsletter-field" type="number" required="" name="Phone">
+                                <button type="submit" class="button green-button">تسجيل </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Story Section -->
+            <!-- Service Section -->
+
+
+
+
+        </div>
+        <!-- End inner-conterner -->
+        <!-- ================================================== -->
+        <!-- Placed js files at the end of the document so the pages load faster -->
+     
+
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/superfish.js"></script>
+        <script src="~/js/wow.js"></script>
+        <script src="~/js/jquery.isotope.min.js"></script>
+        <script src="~/js/owl.carousel.min.js"></script>
+        <script src="~/js/jquery.magnific-popup.js"></script>
+        <script src="~/js/jflickrfeed.min.js"></script>
+        <script src="~/js/jquery.fitvids.js"></script>
+        <script src="~/js/jquery.fractionslider.min.js"></script>
+        <script src="~/js/jquery-ui-1.10.4.custom.min.js"></script>
+        <script type="~/text/javascript" src="js/SmoothScroll.js"></script>
+         
+        <script src="~/js/main.js"></script>
+
+    </body>
+
+ 
