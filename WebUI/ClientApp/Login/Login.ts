@@ -46,8 +46,7 @@ namespace Login {
     export function InitalizeComponent() {
 
         ID_Device = Get_ID_Device();
-
-
+                       
         InitalizeControls();
         InitalizeEvents();
         Get_Uesr_Session();
