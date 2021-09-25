@@ -888,8 +888,29 @@ class KQ_GetAlertNoteLog extends SecurityClass {
     public IsSent: boolean;
     public AlertID: number;
 }
-
-  
-
+       
+class SessionStorage extends SecurityClass {
+    constructor() {
+        super();
+        this.ID = 0;
+        this.ID_Device = "";
+        this.Name = "";
+        this.Phone = "";
+        this.TR_Type = "";
+        this.page = 0;
+        this.TurnNumber = 0;
+        this.ServiceId = 0;
+        this.Id_Cust = 0;
+    }
+    public ID: number;
+    public ID_Device: string;
+    public Name: string;
+    public Phone: string;
+    public TR_Type: string;
+    public page: number;
+    public TurnNumber: number;
+    public ServiceId: number;
+    public Id_Cust: number;
+}
 
 

@@ -5,15 +5,20 @@ $(document).ready(() => {
 })
 
 namespace Login {
-     
+
 
     var Client: ClientDto = new ClientDto();
     var User_Add: UserAdd = new UserAdd();
-    var User: Userclose = new Userclose();  
-    var Cuts_Display_App: Display_App = new Display_App(); 
-    var GetStat: GetStatus = new GetStatus(); 
+    var User: Userclose = new Userclose();
+    var Cuts_Display_App: Display_App = new Display_App();
+    var SessionStorages: Array<SessionStorage> = new Array<SessionStorage>();
+    var Sessions: SessionStorage = new SessionStorage();
+
     
-    
+
+
+    var GetStat: GetStatus = new GetStatus();
+
     var Details_Employee: Array<Table_Tim_work> = new Array<Table_Tim_work>();
     var Details_API: Array<Table_Hagz> = new Array<Table_Hagz>();
     var Details_Check: Array<Reservations> = new Array<Reservations>();
@@ -36,12 +41,17 @@ namespace Login {
     var MyTimer;
 
     var flag_corse;
+    var ID_Device;
 
     export function InitalizeComponent() {
 
+        ID_Device = Get_ID_Device();
+
+
         InitalizeControls();
         InitalizeEvents();
-        LoadPage();
+        Get_Uesr_Session();
+
 
         cheakcloseDay()
         if (close == '0') {
@@ -54,7 +64,6 @@ namespace Login {
 
             $('#butBack').addClass('display_none');
             $('#butRemove').addClass('display_none');
-
             $('#txt_titel').html('قائمة التسجيل');
         }
 
@@ -86,15 +95,84 @@ namespace Login {
 
     }
 
-    function setTime() {
-        MyTimer  =  setTimeout(function () {
+    function Get_Uesr_Session() {
 
-         
+
+
+        Ajax.Callsync({
+            type: "Get",
+            url: sys.apiUrl("Home", "Get_Uesr_Session"),
+            data: { ID_Device: ID_Device },
+            success: (d) => {
+                let result = d as BaseResponse;
+                if (result.IsSuccess) {
+                    SessionStorages = result.Response as Array<SessionStorage>;
+                    debugger
+                    if (SessionStorages.length > 0) {
+                                                  
+                        sessionStorage.setItem("Name", SessionStorages[0].Name);
+                        sessionStorage.setItem("Phone", SessionStorages[0].Phone);
+                        sessionStorage.setItem("page", "" + SessionStorages[0].page + "");
+                        sessionStorage.setItem("TR_Type", SessionStorages[0].TR_Type);
+                        sessionStorage.setItem("TurnNumber", "" + SessionStorages[0].TurnNumber + "");
+                        sessionStorage.setItem("ServiceId", "" + SessionStorages[0].ServiceId + "");
+                        sessionStorage.setItem("Id", "" + SessionStorages[0].Id_Cust + "");
+                        txtName.value = SessionStorages[0].Name.toString();
+                        txtPhone.value =  SessionStorages[0].Phone.toString();
+
+                        if (SessionStorages[0].Phone == null) {
+                            sessionStorage.setItem("page", "2");
+                            LoadPage();
+                        }
+                        else {
+                            LoadPage();
+                        }
+
+
+                    }
+                    else {
+
+                        sessionStorage.setItem("page", "1");
+                        txtName.value = '';
+                        txtPhone.value = '';
+                        LoadPage();
+
+                    }
+
+
+                }
+
+            }
+        });
+
+
+
+    }
+
+    function Get_ID_Device() {
+
+        var navigator_info = window.navigator;
+        var screen_info = window.screen;
+        var uid = navigator_info.mimeTypes.length.toString();
+        uid += navigator_info.userAgent.replace(/\D+/g, '');
+        uid += navigator_info.plugins.length;
+        uid += screen_info.height || '';
+        uid += screen_info.width || '';
+        uid += screen_info.pixelDepth || '';
+
+
+        return uid;
+    }
+
+    function setTime() {
+        MyTimer = setTimeout(function () {
+
+
             Refresh()
             setTime();
         }, 15000);
 
-      
+
     }
 
     function cheakcloseDay() {
@@ -106,19 +184,19 @@ namespace Login {
                 let result = d as BaseResponse;
                 if (result.IsSuccess) {
 
-                    close = result.Response; 
+                    close = result.Response;
 
-                } 
+                }
             }
         });
-      
+
     }
 
     function LoadPage() {
-       
+
 
         var page = sessionStorage.getItem("page");
-
+                   
         if (page == '2') {
 
             clearTimeout(MyTimer);
@@ -223,38 +301,69 @@ namespace Login {
 
         if (txtName.value.trim() != '' && txtPhone.value.trim() != '') {
 
-            cheakcloseDay() 
+            cheakcloseDay()
             if (close == 0) {
                 alert('لا يمكنك تسجيل الدخول لانه المحل مغلق')
             }
             else {
 
-                $('#Div_Type').removeClass('display_none');
-                $('#Div_Login').addClass('display_none');
-                $('#Div_Confirm').addClass('display_none');
-                $('#Div_Home').addClass('display_none');
-                $('#Div_Employess').addClass('display_none');
-
-
-                $('#butBack').removeClass('display_none');
-                $('#butRemove').addClass('display_none');
-
-                $('#txt_titel').html('أختر نوع الخدمة');
-
-                sessionStorage.setItem("page", "2");
-
-                sessionStorage.setItem("Name", txtName.value);
-
-                sessionStorage.setItem("Phone", txtPhone.value);
+                Insert_SessionStorage();
 
             }
 
-           
+
 
         }
         else {
             alert('برجاء ملئ الحقول الفارغة بالبيانات');
         }
+    }
+
+    function Insert_SessionStorage() {
+
+        Sessions = new SessionStorage();
+
+        Sessions.ID_Device = ID_Device;
+        Sessions.Name = txtName.value;
+        Sessions.Phone = txtPhone.value;
+        Sessions.page = 2;
+        Sessions.TR_Type = "";
+        Sessions.ServiceId = 0;
+        Sessions.TurnNumber = 0;
+        Sessions.Id_Cust = 0;
+                      
+        
+        Ajax.Callsync({
+            type: "Post",
+            url: sys.apiUrl("Home", "Insert_SessionStorage"),
+            data: JSON.stringify(Sessions),
+            success: (d) => {      
+                let result = d as BaseResponse;
+                if (result.IsSuccess) {
+                   
+                    $('#Div_Type').removeClass('display_none');
+                    $('#Div_Login').addClass('display_none');
+                    $('#Div_Confirm').addClass('display_none');
+                    $('#Div_Home').addClass('display_none');
+                    $('#Div_Employess').addClass('display_none');
+
+
+                    $('#butBack').removeClass('display_none');
+                    $('#butRemove').addClass('display_none');
+
+                    $('#txt_titel').html('أختر نوع الخدمة');
+
+                    sessionStorage.setItem("page", "2");
+
+                    sessionStorage.setItem("Name", txtName.value);
+
+                    sessionStorage.setItem("Phone", txtPhone.value);
+
+                }
+
+            }
+        });
+
     }
 
     function btnMan_onclick() {
@@ -317,7 +426,8 @@ namespace Login {
         Details_Employee = new Array<Table_Tim_work>();
         Ajax.Callsync({
             type: "Get",
-            url: sys.apiUrl("Home", "GetAllTable_Tim_work"),
+            url: sys.apiUrl("Home", "GetAllEmb_InApp"),
+            data: { TR_Type: TR_Type, ID_Device: ID_Device },   
             success: (d) => {
                 ;
                 let result = d as BaseResponse;
@@ -394,11 +504,11 @@ namespace Login {
 
             insert_Cust();
 
-            
+
 
             sessionStorage.setItem("page", "5");
 
-         
+
 
             setTime();
 
@@ -414,24 +524,24 @@ namespace Login {
 
     function insert_Cust() {
         debugger
-                 
+
         let Name = sessionStorage.getItem("Name");
         let Phone = sessionStorage.getItem("Phone");
         let Type = sessionStorage.getItem("TR_Type");
-                      
-      
+
+
 
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "insert_Table_on_App"),
-            data: { Name: Name, Phone: Phone, Type: Type, Message: "حجز خارجي", TR_Type: Type },
+            data: { Name: Name, Phone: Phone, Type: Type, Message: "حجز خارجي", TR_Type: Type ,ID_Device: ID_Device},
             success: (d) => {
 
                 let result = d as BaseResponse;
-                if (result.IsSuccess) { 
+                if (result.IsSuccess) {
                     Details_API = result.Response as Array<Table_Hagz>;
-                     
-                     
+
+
                     sessionStorage.setItem("TurnNumber", Details_API[0].Num.toString());
                     sessionStorage.setItem("ServiceId", Details_API[0].Type.toString());
                     sessionStorage.setItem("Id", Details_API[0].ID.toString());
@@ -440,7 +550,7 @@ namespace Login {
 
                     Display();
 
-                } 
+                }
             }
         });
 
@@ -463,18 +573,18 @@ namespace Login {
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "Cheack_Num_Confirm"),
-            data: { TrType: TR_Type },
+            data: { TrType: TR_Type, ID_Device: ID_Device },
             success: (d) => {
                 let result = d as BaseResponse;
                 if (result.IsSuccess) {
-                    let num  = result.Response;
+                    let num = result.Response;
 
                     if (TR_Type == '1') {
 
-                        if (num == -1) { 
+                        if (num == -1) {
                             num = 'يمكنك الدخول';
                         }
-                        
+
 
                     }
                     else {
@@ -489,34 +599,34 @@ namespace Login {
 
             }
         });
-         
+
     }
 
     function butRemove_onclick() {
 
         var r = confirm('هل انت متاكد من اللغاء الحجز الخاص بك');
         if (r == true) {
-             
+
             let ReservationId = sessionStorage.getItem("Id");
-             
+
             Ajax.Callsync({
                 type: "Get",
-                url: sys.apiUrl("Home", "PROC_Delete_Rows"),
-                data: { ID: ReservationId },
+                url: sys.apiUrl("Home", "Delete_Cut"),
+                data: { ID: ReservationId, ID_Device: ID_Device },
                 success: (d) => {
 
-                    sessionStorage.setItem("page", "");
+                    sessionStorage.setItem("page", "2");
                     sessionStorage.setItem("TR_Type", "");
                     sessionStorage.setItem("Id", "");
                     LoadPage();
 
-                    txtName.value = '';
-                    txtPhone.value = '';
+                    //txtName.value = '';
+                    //txtPhone.value = '';
 
                 }
             });
 
-         
+
 
 
         }
@@ -534,8 +644,8 @@ namespace Login {
         let Id = sessionStorage.getItem("Id");
         let check = Details_Check.filter(x => x.ServiceId == Number(TR_Type) && x.Id == Number(Id));
 
-        
-        if (check[0].StatusId == 3 ) {
+
+        if (check[0].StatusId == 3) {
 
             StatusId = 4;
 
@@ -562,13 +672,13 @@ namespace Login {
 
     }
 
-    function Display() {       
-        Cuts_Display_App = new Display_App(); 
+    function Display() {
+        Cuts_Display_App = new Display_App();
         let ID = sessionStorage.getItem("Id");
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "GetAll_App"),
-            data: { TR_Type: TR_Type, ID: ID},
+            data: { TR_Type: TR_Type, ID: ID, ID_Device: ID_Device },
             success: (d) => {
                 debugger;
                 let result = d as BaseResponse;
@@ -580,21 +690,21 @@ namespace Login {
                     Corse_ON_Active();
                     for (var i = 0; i < Cuts_Display_App.Table_Hagz.length; i++) {
                         if (Cuts_Display_App.Table_Hagz[i].cheak == true) {
-                             
+
                             Corse_Is_Active(id_Corse, Cuts_Display_App.Table_Hagz, i);
-                             
+
                             id_Corse++;
 
                             flag_corse = true;
-                        } 
+                        }
 
                     }
 
                     $('#label_Num').html(GetStat.TrNo.toString());
 
                     $('#Home_Num_Dor').html('باقي علي دورك : ' + GetStat.StatusName.toString() + '');
- 
-                    if (GetStat.StatusName== "الحجز الخاص بك غير موجود او تم الانتهتء من الخدمة الرجاء الحجز مره اخري" ) {
+
+                    if (GetStat.StatusName == "الحجز الخاص بك غير موجود او تم الانتهتء من الخدمة الرجاء الحجز مره اخري") {
 
                         let page = sessionStorage.getItem("page");
 
@@ -604,164 +714,28 @@ namespace Login {
 
                             $('#Home_Num_Dor').html('باقي علي دورك : يمكنك الدخول');
 
-                            sessionStorage.setItem("page", "");
+                            sessionStorage.setItem("page", "2");
                             sessionStorage.setItem("TR_Type", "");
                             sessionStorage.setItem("Id", "");
                             LoadPage();
 
-                            txtName.value = '';
-                            txtPhone.value = '';
+                            //txtName.value = '';
+                            //txtPhone.value = '';
 
-                        }  
+                        }
 
                     }
-                 
- 
+
+
 
 
                 }
 
             }
         });
-
-        //Ajax.Callsync({
-        //    type: "Get",
-        //    url: sys.apiUrl("Home", "GetAll"),
-        //    data: { TR_Type: TR_Type },
-        //    success: (d) => {
-                 
-        //        let result = d as BaseReservations;
-        //        Details_API = result.Reservations as Array<Reservations>;
-        //        Details_Check = result.Reservations as Array<Reservations>;
-
-        //        Details_API = Details_API.filter(x => x.ServiceId == Number(TR_Type));
-
-        //        let id_Corse = 1;
-        //        Corse_ON_Active();
-        //        for (var i = 0; i < Details_API.length; i++) {
-        //            if (Details_API[i].StatusId == 3) {
-
-        //                Corse_Is_Active(id_Corse, Details_API, i);
-
-
-        //                var index = Details_API.map(function (e) { return e.TurnNumber; }).indexOf(Details_API[i].TurnNumber);
-        //                delete Details_API[index];
-
-        //                id_Corse++;
-
-        //                flag_corse = true;
-
-
-        //            }
-
-
-        //        }
-
-
-        //        reindexArray(Details_API);
-
-        //        let Id = sessionStorage.getItem("Id");
-
-        //        let check = Details_Check.filter(x => x.ServiceId == Number(TR_Type) && x.Id == Number(Id));
-
-
-        //        if (check.length >0)
-        //        {
-
-
-        //            if (check[0].StatusId == 3) {
-
-        //                $('#Home_Num_Dor').html(' باقي علي دورك : لقد بدائت الحلاقة نتمني لكم وقت طيب');
-
-        //            }
-                   
-        //            else {
-
-        //                let TurnNumber = sessionStorage.getItem("TurnNumber");
-
-
-        //                let check_Dor = Details_Check.filter(x => x.ServiceId == Number(TR_Type) && x.StatusId != 3 && x.TurnNumber < Number(TurnNumber));
-
-        //                let num = (check_Dor.length).toString();
-
-
-        //                if (Number(num) > 0) {
-
-        //                    num = check_Dor.length.toString();
-
-        //                }
-        //                else {
-
-        //                    let check_Enter = Details_Check.filter(x => x.ServiceId == Number(TR_Type) && x.StatusId == 3);
-                               
-        //                    if (TR_Type == '1') {
-
-        //                        if (check_Enter.length == 4) {
-        //                            num = '0';
-        //                        }
-        //                        else {
-        //                            num = 'يمكنك الدخول';
-
-        //                        }
-
-        //                    }
-        //                    else {
-        //                        if (check_Enter.length == 1) {
-        //                            num = '0';
-        //                        }
-        //                        else {
-        //                            num = 'يمكنك الدخول';
-
-        //                        }
-        //                    }
-
-
-
-        //                }
-
-
-
-        //                $('#Home_Num_Dor').html('باقي علي دورك : ' + num.toString() + '');
-
-                       
-
-
-
-
-
-        //            }
-
-        //        }
-        //        else
-        //        {
-
-        //            let page = sessionStorage.getItem("page"); 
-
-        //            if (page == '5') {
-
-        //                alert('الحجز الخاص بك غير موجود او تم الانتهتء من الخدمة الرجاء الحجز مره اخري')
-
-        //                $('#Home_Num_Dor').html('باقي علي دورك : يمكنك الدخول');
-
-        //                sessionStorage.setItem("page", "");
-        //                sessionStorage.setItem("TR_Type", "");
-        //                sessionStorage.setItem("Id", "");
-        //                LoadPage();
-
-        //                txtName.value = '';
-        //                txtPhone.value = '';
-                              
-        //            }    
-        //            $('#Confirm_Num_Dor').html('في الانتظار : متاح الان يمكنك الدخول');
-
-        //        }
-
-
-              
-        //    }
-        //});
+             
     }
-                                       
+
     function Corse_Is_Active(id_Corse: number, Details: Array<Table_Hagz>, i: number) {
         $('#Corse_' + id_Corse + '').attr('class', ' col-sm-3 col-md-3 col-lg-3 col-xl-3  jq-tab-title Corse_Is_Active');
         $('#Corse_' + id_Corse + '').attr('Data_ID', Details[i].ID);

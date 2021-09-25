@@ -656,4 +656,21 @@ var KQ_GetAlertNoteLog = (function (_super) {
     }
     return KQ_GetAlertNoteLog;
 }(SecurityClass));
+var SessionStorage = (function (_super) {
+    __extends(SessionStorage, _super);
+    function SessionStorage() {
+        var _this = _super.call(this) || this;
+        _this.ID = 0;
+        _this.ID_Device = "";
+        _this.Name = "";
+        _this.Phone = "";
+        _this.TR_Type = "";
+        _this.page = 0;
+        _this.TurnNumber = 0;
+        _this.ServiceId = 0;
+        _this.Id_Cust = 0;
+        return _this;
+    }
+    return SessionStorage;
+}(SecurityClass));
 //# sourceMappingURL=Entities.js.map
