@@ -661,6 +661,7 @@ var SessionStorage = (function (_super) {
     function SessionStorage() {
         var _this = _super.call(this) || this;
         _this.ID = 0;
+        _this.BranchCode = 0;
         _this.ID_Device = "";
         _this.Name = "";
         _this.Phone = "";
@@ -672,5 +673,16 @@ var SessionStorage = (function (_super) {
         return _this;
     }
     return SessionStorage;
+}(SecurityClass));
+var G_Branch = (function (_super) {
+    __extends(G_Branch, _super);
+    function G_Branch() {
+        var _this = _super.call(this) || this;
+        _this.BranchCode = 0;
+        _this.NameA = "";
+        _this.NameE = "";
+        return _this;
+    }
+    return G_Branch;
 }(SecurityClass));
 //# sourceMappingURL=Entities.js.map

@@ -893,6 +893,7 @@ class SessionStorage extends SecurityClass {
     constructor() {
         super();
         this.ID = 0;
+        this.BranchCode = 0;      
         this.ID_Device = "";
         this.Name = "";
         this.Phone = "";
@@ -903,6 +904,7 @@ class SessionStorage extends SecurityClass {
         this.Id_Cust = 0;
     }
     public ID: number;
+    public BranchCode: number;       
     public ID_Device: string;
     public Name: string;
     public Phone: string;
@@ -912,5 +914,19 @@ class SessionStorage extends SecurityClass {
     public ServiceId: number;
     public Id_Cust: number;
 }
+
+
+class G_Branch extends SecurityClass {
+    constructor() {
+        super();
+        this.BranchCode = 0;
+        this.NameA = "";
+        this.NameE = "";
+    }
+    public BranchCode: number;
+    public NameA: string;
+    public NameE: string;
+}
+
 
 

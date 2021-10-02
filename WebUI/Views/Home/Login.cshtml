@@ -83,6 +83,12 @@
         text-align: center !important;
     }
 
+    .text_Mandatory {
+        background-color: #934141 !important;
+        color: white !important;
+    }
+    
+    
 
     input[type='checkbox'] {
         width: 25px !important;
@@ -203,10 +209,7 @@
                         <br />
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
+                      
 
                     </div>
                     <div class="col-md-12">
@@ -215,6 +218,10 @@
                         <div class="title-un-icon" style="color: white;"><i class="fa ion-ios-book-outline"></i></div>
                         <!-- <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p> -->
                         <div class="newsletter-container wow fadeInUp">
+                            <select id="txt_Branch" name="" class="newsletter-field" style="height: 1%;" >
+                                <option value="1">فرع العشرين</option>
+                                <option value="2">فرع أكتوبر</option>
+                            </select>
                             <input id="txtName" placeholder="Name" class="newsletter-field" type="text" required="" name="Name">
                             <input id="txtPhone" placeholder="Phone" class="newsletter-field" type="number" required="" name="Phone">
                             <button id="submit" type="submit" class="button green-button">تسجيل </button>

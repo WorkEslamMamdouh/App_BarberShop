@@ -13,6 +13,7 @@ namespace Login {
     var Cuts_Display_App: Display_App = new Display_App();
     var SessionStorages: Array<SessionStorage> = new Array<SessionStorage>();
     var Sessions: SessionStorage = new SessionStorage();
+    var Branch: Array<G_Branch> = new Array<G_Branch>();     
 
     
 
@@ -26,6 +27,7 @@ namespace Login {
 
     var txtName: HTMLInputElement;
     var txtPhone: HTMLInputElement;
+    var txt_Branch: HTMLSelectElement;
 
     var submit: HTMLButtonElement;
     var btnMan: HTMLButtonElement;
@@ -42,13 +44,15 @@ namespace Login {
 
     var flag_corse;
     var ID_Device;
+    var BranchCode = 1;
 
     export function InitalizeComponent() {
-
+        debugger
         ID_Device = Get_ID_Device();
                        
         InitalizeControls();
         InitalizeEvents();
+        Get_Branch();
         Get_Uesr_Session();
 
 
@@ -78,8 +82,9 @@ namespace Login {
         butConfirm = document.getElementById("butConfirm") as HTMLButtonElement;
         butRemove = document.getElementById("butRemove") as HTMLButtonElement;
         butBack = document.getElementById("butBack") as HTMLButtonElement;
+        txt_Branch = document.getElementById("txt_Branch") as HTMLSelectElement;
 
-
+        
 
     }
     function InitalizeEvents() {
@@ -93,6 +98,28 @@ namespace Login {
         butBack.onclick = butBack_onclick;
 
     }
+
+    function Get_Branch() {
+
+        Ajax.Callsync({
+            type: "Get",
+            url: sys.apiUrl("Home", "GetBranch"),
+            success: (d) => {
+                let result = d as BaseResponse;
+                if (result.IsSuccess) {
+                    Branch = result.Response as Array<G_Branch>;
+                   
+                    DocumentActions.FillCombowithdefult(Branch, txt_Branch, "BranchCode", "NameA", "اختار الفرع");
+
+
+                    //BranchCode = Number(txt_Branch.value);
+
+                }
+
+            }
+        });
+
+    }    
 
     function Get_Uesr_Session() {
 
@@ -108,7 +135,8 @@ namespace Login {
                     SessionStorages = result.Response as Array<SessionStorage>;
                     debugger
                     if (SessionStorages.length > 0) {
-                                                  
+
+                        sessionStorage.setItem("BranchCode", "" + SessionStorages[0].BranchCode+"");    
                         sessionStorage.setItem("Name", SessionStorages[0].Name);
                         sessionStorage.setItem("Phone", SessionStorages[0].Phone);
                         sessionStorage.setItem("page", "" + SessionStorages[0].page + "");
@@ -117,8 +145,9 @@ namespace Login {
                         sessionStorage.setItem("ServiceId", "" + SessionStorages[0].ServiceId + "");
                         sessionStorage.setItem("Id", "" + SessionStorages[0].Id_Cust + "");
                         txtName.value = SessionStorages[0].Name.toString();
-                        txtPhone.value =  SessionStorages[0].Phone.toString();
-
+                        txtPhone.value = SessionStorages[0].Phone.toString();
+                        txt_Branch.value = SessionStorages[0].BranchCode.toString();
+                        BranchCode = SessionStorages[0].BranchCode; 
                         if (SessionStorages[0].Phone == null) {
                             sessionStorage.setItem("page", "2");
                             LoadPage();
@@ -129,8 +158,10 @@ namespace Login {
 
 
                     }
-                    else {
-
+                    else
+                    {
+                        txt_Branch.selectedIndex = 0;
+                        BranchCode = Number(txt_Branch.value);
                         sessionStorage.setItem("page", "1");
                         txtName.value = '';
                         txtPhone.value = '';
@@ -175,10 +206,11 @@ namespace Login {
     }
 
     function cheakcloseDay() {
-
+                          
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "cheakcloseDay"),
+            data: { BranchCode: Number(txt_Branch.value) },    
             success: (d) => {
                 let result = d as BaseResponse;
                 if (result.IsSuccess) {
@@ -297,9 +329,25 @@ namespace Login {
 
     function submit_onclick() {
 
+        if (txt_Branch.selectedIndex == 0) {
+            alert('برجاء أختيار الفرع');
+            Errorinput(txt_Branch);
+            return
+        }  
+        if (txtName.value.trim() == '') {
+            alert('برجاء أدخال الاسم');
+            Errorinput(txtName);
+            return
 
-        if (txtName.value.trim() != '' && txtPhone.value.trim() != '') {
+        }
+        if (txtPhone.value.trim() == '') {
+            alert('برجاء أدخال رقم التليفون');
+            Errorinput(txtPhone);
+            return
 
+
+        }
+        else {
             cheakcloseDay()
             if (close == 0) {
                 alert('لا يمكنك تسجيل الدخول لانه المحل مغلق')
@@ -309,13 +357,12 @@ namespace Login {
                 Insert_SessionStorage();
 
             }
-
-
-
         }
-        else {
-            alert('برجاء ملئ الحقول الفارغة بالبيانات');
-        }
+        
+
+
+
+       
     }
 
     function Insert_SessionStorage() {
@@ -330,7 +377,8 @@ namespace Login {
         Sessions.ServiceId = 0;
         Sessions.TurnNumber = 0;
         Sessions.Id_Cust = 0;
-                      
+        Sessions.BranchCode = Number(txt_Branch.value);
+        BranchCode = Number(txt_Branch.value);
         
         Ajax.Callsync({
             type: "Post",
@@ -357,6 +405,8 @@ namespace Login {
                     sessionStorage.setItem("Name", txtName.value);
 
                     sessionStorage.setItem("Phone", txtPhone.value);
+                    sessionStorage.setItem("BranchCode", txt_Branch.value);    
+
 
                 }
 
@@ -426,7 +476,7 @@ namespace Login {
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "GetAllEmb_InApp"),
-            data: { TR_Type: TR_Type, ID_Device: ID_Device },   
+            data: { TR_Type: TR_Type, ID_Device: ID_Device, BranchCode: BranchCode },   
             success: (d) => {
                 ;
                 let result = d as BaseResponse;
@@ -527,13 +577,13 @@ namespace Login {
         let Name = sessionStorage.getItem("Name");
         let Phone = sessionStorage.getItem("Phone");
         let Type = sessionStorage.getItem("TR_Type");
-
+        let BraCode = sessionStorage.getItem("BranchCode");
 
 
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "insert_Table_on_App"),
-            data: { Name: Name, Phone: Phone, Type: Type, Message: "حجز خارجي", TR_Type: Type ,ID_Device: ID_Device},
+            data: { Name: Name, Phone: Phone, Type: Type, Message: "حجز خارجي", TR_Type: Type, ID_Device: ID_Device, BranchCode: BraCode},
             success: (d) => {
 
                 let result = d as BaseResponse;
@@ -572,7 +622,7 @@ namespace Login {
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "Cheack_Num_Confirm"),
-            data: { TrType: TR_Type, ID_Device: ID_Device },
+            data: { TrType: TR_Type, ID_Device: ID_Device, BranchCode: BranchCode},
             success: (d) => {
                 let result = d as BaseResponse;
                 if (result.IsSuccess) {
@@ -611,7 +661,7 @@ namespace Login {
             Ajax.Callsync({
                 type: "Get",
                 url: sys.apiUrl("Home", "Delete_Cut"),
-                data: { ID: ReservationId, ID_Device: ID_Device },
+                data: { ID: ReservationId, ID_Device: ID_Device, BranchCode: BranchCode },
                 success: (d) => {
 
                     sessionStorage.setItem("page", "2");
@@ -677,7 +727,7 @@ namespace Login {
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "GetAll_App"),
-            data: { TR_Type: TR_Type, ID: ID, ID_Device: ID_Device },
+            data: { TR_Type: TR_Type, ID: ID, ID_Device: ID_Device, BranchCode: BranchCode },
             success: (d) => {
                 debugger;
                 let result = d as BaseResponse;

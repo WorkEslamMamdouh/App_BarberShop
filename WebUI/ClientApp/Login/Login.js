@@ -10,6 +10,7 @@ var Login;
     var Cuts_Display_App = new Display_App();
     var SessionStorages = new Array();
     var Sessions = new SessionStorage();
+    var Branch = new Array();
     var GetStat = new GetStatus();
     var Details_Employee = new Array();
     var Details_API = new Array();
@@ -17,6 +18,7 @@ var Login;
     var sys = new SystemTools();
     var txtName;
     var txtPhone;
+    var txt_Branch;
     var submit;
     var btnMan;
     var btnChild;
@@ -30,10 +32,13 @@ var Login;
     var MyTimer;
     var flag_corse;
     var ID_Device;
+    var BranchCode = 1;
     function InitalizeComponent() {
+        debugger;
         ID_Device = Get_ID_Device();
         InitalizeControls();
         InitalizeEvents();
+        Get_Branch();
         Get_Uesr_Session();
         cheakcloseDay();
         if (close == '0') {
@@ -59,6 +64,7 @@ var Login;
         butConfirm = document.getElementById("butConfirm");
         butRemove = document.getElementById("butRemove");
         butBack = document.getElementById("butBack");
+        txt_Branch = document.getElementById("txt_Branch");
     }
     function InitalizeEvents() {
         submit.onclick = submit_onclick;
@@ -68,6 +74,19 @@ var Login;
         butConfirm.onclick = butConfirm_onclick;
         butRemove.onclick = butRemove_onclick;
         butBack.onclick = butBack_onclick;
+    }
+    function Get_Branch() {
+        Ajax.Callsync({
+            type: "Get",
+            url: sys.apiUrl("Home", "GetBranch"),
+            success: function (d) {
+                var result = d;
+                if (result.IsSuccess) {
+                    Branch = result.Response;
+                    DocumentActions.FillCombowithdefult(Branch, txt_Branch, "BranchCode", "NameA", "اختار الفرع");
+                }
+            }
+        });
     }
     function Get_Uesr_Session() {
         Ajax.Callsync({
@@ -80,6 +99,7 @@ var Login;
                     SessionStorages = result.Response;
                     debugger;
                     if (SessionStorages.length > 0) {
+                        sessionStorage.setItem("BranchCode", "" + SessionStorages[0].BranchCode + "");
                         sessionStorage.setItem("Name", SessionStorages[0].Name);
                         sessionStorage.setItem("Phone", SessionStorages[0].Phone);
                         sessionStorage.setItem("page", "" + SessionStorages[0].page + "");
@@ -89,6 +109,8 @@ var Login;
                         sessionStorage.setItem("Id", "" + SessionStorages[0].Id_Cust + "");
                         txtName.value = SessionStorages[0].Name.toString();
                         txtPhone.value = SessionStorages[0].Phone.toString();
+                        txt_Branch.value = SessionStorages[0].BranchCode.toString();
+                        BranchCode = SessionStorages[0].BranchCode;
                         if (SessionStorages[0].Phone == null) {
                             sessionStorage.setItem("page", "2");
                             LoadPage();
@@ -98,6 +120,8 @@ var Login;
                         }
                     }
                     else {
+                        txt_Branch.selectedIndex = 0;
+                        BranchCode = Number(txt_Branch.value);
                         sessionStorage.setItem("page", "1");
                         txtName.value = '';
                         txtPhone.value = '';
@@ -128,6 +152,7 @@ var Login;
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "cheakcloseDay"),
+            data: { BranchCode: Number(txt_Branch.value) },
             success: function (d) {
                 var result = d;
                 if (result.IsSuccess) {
@@ -200,7 +225,22 @@ var Login;
         }
     }
     function submit_onclick() {
-        if (txtName.value.trim() != '' && txtPhone.value.trim() != '') {
+        if (txt_Branch.selectedIndex == 0) {
+            alert('برجاء أختيار الفرع');
+            Errorinput(txt_Branch);
+            return;
+        }
+        if (txtName.value.trim() == '') {
+            alert('برجاء أدخال الاسم');
+            Errorinput(txtName);
+            return;
+        }
+        if (txtPhone.value.trim() == '') {
+            alert('برجاء أدخال رقم التليفون');
+            Errorinput(txtPhone);
+            return;
+        }
+        else {
             cheakcloseDay();
             if (close == 0) {
                 alert('لا يمكنك تسجيل الدخول لانه المحل مغلق');
@@ -208,9 +248,6 @@ var Login;
             else {
                 Insert_SessionStorage();
             }
-        }
-        else {
-            alert('برجاء ملئ الحقول الفارغة بالبيانات');
         }
     }
     function Insert_SessionStorage() {
@@ -223,6 +260,8 @@ var Login;
         Sessions.ServiceId = 0;
         Sessions.TurnNumber = 0;
         Sessions.Id_Cust = 0;
+        Sessions.BranchCode = Number(txt_Branch.value);
+        BranchCode = Number(txt_Branch.value);
         Ajax.Callsync({
             type: "Post",
             url: sys.apiUrl("Home", "Insert_SessionStorage"),
@@ -241,6 +280,7 @@ var Login;
                     sessionStorage.setItem("page", "2");
                     sessionStorage.setItem("Name", txtName.value);
                     sessionStorage.setItem("Phone", txtPhone.value);
+                    sessionStorage.setItem("BranchCode", txt_Branch.value);
                 }
             }
         });
@@ -279,7 +319,7 @@ var Login;
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "GetAllEmb_InApp"),
-            data: { TR_Type: TR_Type, ID_Device: ID_Device },
+            data: { TR_Type: TR_Type, ID_Device: ID_Device, BranchCode: BranchCode },
             success: function (d) {
                 ;
                 var result = d;
@@ -337,10 +377,11 @@ var Login;
         var Name = sessionStorage.getItem("Name");
         var Phone = sessionStorage.getItem("Phone");
         var Type = sessionStorage.getItem("TR_Type");
+        var BraCode = sessionStorage.getItem("BranchCode");
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "insert_Table_on_App"),
-            data: { Name: Name, Phone: Phone, Type: Type, Message: "حجز خارجي", TR_Type: Type, ID_Device: ID_Device },
+            data: { Name: Name, Phone: Phone, Type: Type, Message: "حجز خارجي", TR_Type: Type, ID_Device: ID_Device, BranchCode: BraCode },
             success: function (d) {
                 var result = d;
                 if (result.IsSuccess) {
@@ -364,7 +405,7 @@ var Login;
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "Cheack_Num_Confirm"),
-            data: { TrType: TR_Type, ID_Device: ID_Device },
+            data: { TrType: TR_Type, ID_Device: ID_Device, BranchCode: BranchCode },
             success: function (d) {
                 var result = d;
                 if (result.IsSuccess) {
@@ -391,7 +432,7 @@ var Login;
             Ajax.Callsync({
                 type: "Get",
                 url: sys.apiUrl("Home", "Delete_Cut"),
-                data: { ID: ReservationId, ID_Device: ID_Device },
+                data: { ID: ReservationId, ID_Device: ID_Device, BranchCode: BranchCode },
                 success: function (d) {
                     sessionStorage.setItem("page", "2");
                     sessionStorage.setItem("TR_Type", "");
@@ -429,7 +470,7 @@ var Login;
         Ajax.Callsync({
             type: "Get",
             url: sys.apiUrl("Home", "GetAll_App"),
-            data: { TR_Type: TR_Type, ID: ID, ID_Device: ID_Device },
+            data: { TR_Type: TR_Type, ID: ID, ID_Device: ID_Device, BranchCode: BranchCode },
             success: function (d) {
                 debugger;
                 var result = d;
